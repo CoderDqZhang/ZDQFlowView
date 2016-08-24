@@ -5,6 +5,8 @@
 pod 'ZDQFlowView'
 ```
 ##项目效果图
+
+
 ![](QQ20160824-0@2x.png)
 
 ##cocoaPods 安装 [地址](http://www.tuicool.com/articles/7VvuAr3"Title") 
@@ -82,4 +84,10 @@ func flowViewItemSize(flowView: ZDQFlowView) -> CGSize {
         return viewItem
     }
 ```
+
+### 有问题或者有更好的建议欢迎发送邮件给我 zhangdequan76983@gmail.com 
+
+## 觉得好用欢迎点击右上角star
+
+
 
