@@ -113,25 +113,24 @@ extension ViewController : ZDQFlowViewDataSource {
         if flowView.tag == 2  {
             switch index {
             case 0:
-                viewItem.setData("已确认",image: UIImage.init(),type: ZDQFlowViewItemType.ItemSelect)
+                viewItem.setData("已确认",image: UIImage.init(),type: ZDQFlowViewItemType.ItemCancelDone)
             case 1:
-                viewItem.setData("已取消",image: UIImage.init(),type: ZDQFlowViewItemType.ItemSelect)
-            
+                viewItem.setData("已取消",image: UIImage.init(),type: ZDQFlowViewItemType.ItemCancel)
             default:
-                viewItem.setData("见面",image: UIImage.init(),type: ZDQFlowViewItemType.ItemWaitSelect)
+                viewItem.setData("见面",image: UIImage.init(),type: ZDQFlowViewItemType.ItemNext)
             }
         }else if flowView.tag == 3 {
             switch index {
             case 0:
                 viewItem.setData("已确认",image: UIImage.init(),type: ZDQFlowViewItemType.ItemSelect)
             case 1:
-                viewItem.setData("已取消",image: UIImage.init(),type: ZDQFlowViewItemType.ItemSelect)
+                viewItem.setData("已付款",image: UIImage.init(),type: ZDQFlowViewItemType.ItemSelect)
             case 2:
-                viewItem.setData("付款",image: UIImage.init(),type: ZDQFlowViewItemType.ItemWaitSelect)
+                viewItem.setData("待见面",image: UIImage.init(),type: ZDQFlowViewItemType.ItemWaitSelect)
             case 3:
-                viewItem.setData("付款",image: UIImage.init(),type: ZDQFlowViewItemType.ItemNext)
-            default:
                 viewItem.setData("见面",image: UIImage.init(),type: ZDQFlowViewItemType.ItemNext)
+            default:
+                viewItem.setData("评价",image: UIImage.init(),type: ZDQFlowViewItemType.ItemNext)
             }
         }else{
             
@@ -141,7 +140,7 @@ extension ViewController : ZDQFlowViewDataSource {
                 case 1:
                     viewItem.setData("已取消",image: UIImage.init(),type: ZDQFlowViewItemType.ItemCancel)
                 case 2:
-                    viewItem.setData("付款",image: UIImage.init(),type: ZDQFlowViewItemType.ItemSelect)
+                    viewItem.setData("付款",image: UIImage.init(),type: ZDQFlowViewItemType.ItemNext)
                 default:
                     viewItem.setData("见面",image: UIImage.init(),type: ZDQFlowViewItemType.ItemNext)
             }
