@@ -5,7 +5,7 @@
 pod 'ZDQFlowView'
 ```
 `项目效果图`
-![](QQ20160824-0@2x.png)
+![](QQ20160824-0@2x.png =375*1168)
 
 cocoaPods 安装 [地址](http://www.tuicool.com/articles/7VvuAr3"Title") 
 
