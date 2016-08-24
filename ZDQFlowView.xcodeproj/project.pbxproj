@@ -14,7 +14,7 @@
 		1F4161B81D6D4BA100567C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4161B61D6D4BA100567C48 /* LaunchScreen.storyboard */; };
 		1F4161C31D6D4C2000567C48 /* ZDQFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4161C11D6D4C2000567C48 /* ZDQFlowView.swift */; };
 		1F4161C41D6D4C2000567C48 /* ZDQFlowViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4161C21D6D4C2000567C48 /* ZDQFlowViewItem.swift */; };
-		1F4161C61D6D6A0C00567C48 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F4161C51D6D6A0C00567C48 /* Resource.bundle */; };
+		1F4161C61D6D6A0C00567C48 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F4161C51D6D6A0C00567C48 /* Resources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		1F4161B91D6D4BA100567C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F4161C11D6D4C2000567C48 /* ZDQFlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDQFlowView.swift; sourceTree = "<group>"; };
 		1F4161C21D6D4C2000567C48 /* ZDQFlowViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDQFlowViewItem.swift; sourceTree = "<group>"; };
-		1F4161C51D6D6A0C00567C48 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		1F4161C51D6D6A0C00567C48 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			children = (
 				1F4161C11D6D4C2000567C48 /* ZDQFlowView.swift */,
 				1F4161C21D6D4C2000567C48 /* ZDQFlowViewItem.swift */,
-				1F4161C51D6D6A0C00567C48 /* Resource.bundle */,
+				1F4161C51D6D6A0C00567C48 /* Resources.bundle */,
 			);
 			path = FlowView;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 				1F4161B81D6D4BA100567C48 /* LaunchScreen.storyboard in Resources */,
 				1F4161B51D6D4BA100567C48 /* Assets.xcassets in Resources */,
 				1F4161B31D6D4BA100567C48 /* Main.storyboard in Resources */,
-				1F4161C61D6D6A0C00567C48 /* Resource.bundle in Resources */,
+				1F4161C61D6D6A0C00567C48 /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
