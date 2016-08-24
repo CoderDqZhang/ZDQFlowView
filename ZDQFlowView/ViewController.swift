@@ -61,12 +61,26 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : ZDQFlowViewDelegate {
+    /**
+     当前点击在哪一项
+     
+     - parameter flowView:
+     - parameter selectItem: 选中的第几个
+     */
     func flowViewDidSelectItem(flowView: ZDQFlowView, selectItem: NSInteger) {
         
     }
 }
 
 extension ViewController : ZDQFlowViewDataSource {
+    /**
+     总共有多少个流程
+     
+     - parameter flowView:
+     
+     - returns: 流程个数
+     */
+    
     func numberOfFlowViewItemCount(flowView: ZDQFlowView) -> NSInteger {
         if flowView.tag == 2 {
             return 3
@@ -75,11 +89,25 @@ extension ViewController : ZDQFlowViewDataSource {
         }
         return 4
     }
-    
+    /**
+     每个item的高度和宽度
+     
+     - parameter flowView:
+     
+     - returns: Item高度和宽度
+     */
     func flowViewItemSize(flowView: ZDQFlowView) -> CGSize {
         return CGSizeMake(60, 60)
     }
-   
+    
+    /**
+     定义每个item的样式
+     
+     - parameter flowView:
+     - parameter index:
+     
+     - returns:
+     */
     func  numberOfFlowViewItem(flowView: ZDQFlowView, index: NSInteger) -> ZDQFlowViewItem {
         let viewItem = ZDQFlowViewItem()
         if flowView.tag == 2  {

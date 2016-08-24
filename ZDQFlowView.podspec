@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "CoderDqZhang" => "769839948@qq.com" }
   s.platform     = :ios,"8.0"
-  s.source       = { :git => "git@github.com:CoderDqZhang/ZDQFlowView.git", :tag => "#{s.version}"}
+  s.source       = { :git => "https://github.com/CoderDqZhang/ZDQFlowView.git", :tag => "#{s.version}"}
   s.source_files = 'FlowView/*'
   s.resources    = "FlowView/*.{png,xib,nib,bundle}"
   s.requires_arc = true
