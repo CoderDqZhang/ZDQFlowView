@@ -4,12 +4,12 @@
 支持pod
 pod 'ZDQFlowView'
 ```
-`项目效果图`
-![](QQ20160824-0@2x.png =375*1168)
+##项目效果图
+![](QQ20160824-0@2x.png)
 
-cocoaPods 安装 [地址](http://www.tuicool.com/articles/7VvuAr3"Title") 
+##cocoaPods 安装 [地址](http://www.tuicool.com/articles/7VvuAr3"Title") 
 
-创建ZDQFlowView对象
+##创建ZDQFlowView对象
 
 ```swift
 flowView = ZDQFlowView(frame: CGRectMake(0,110,ScreenWidth,90))
@@ -23,7 +23,7 @@ self.view.addSubview(flowView1)
 flowView.reloadData()
 ```
 
-设置代理方法Delegate
+##设置代理方法Delegate
 
 ```swift
  /**
@@ -37,7 +37,7 @@ flowView.reloadData()
     }
 ```
 
-设置数据源DataSource
+##设置数据源DataSource
 
 ```swift
 /**
